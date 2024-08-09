@@ -43,7 +43,7 @@ pacf(diff_Fund_daily_train) #5 signifikante lags (7, 8, 14, 17, 24)
 
 #Find den bedste model
 ARIMA_daily_fund <- auto.arima(Fund_daily_train)
-ARIMA_daily_fund #Arima (3,1,0) with non-zero mean
+ARIMA_daily_fund #Arima (3,1,0) 
 
 
 
