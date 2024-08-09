@@ -110,7 +110,7 @@ pacf(diff_Fund_weekly_train) #1 signifikante lags (1)
 
 #Find den bedste model
 ARIMA_weekly = auto.arima(Fund_weekly_train)
-ARIMA_weekly #Arima (0,1,1) with non- zero mean   
+ARIMA_weekly #Arima (0,1,1)  
 
 autoplot(ARIMA_weekly)
 
